@@ -5,7 +5,6 @@ interface Props {
 }
 
 export function Input(p: Props) {
-
     function onChange(value: string) {
         if(p.onChange)
         p.onChange(value);
